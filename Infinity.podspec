@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/danisfabric/Infinity"
   s.license          = 'MIT'
   s.author           = { "DanisFabric" => "danisfabric@gmail.com" }
-  s.source           = { :git => "https://github.com/danisfabric/Infinity.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mihirpmehta/Infinity.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Infinity/**/*'
